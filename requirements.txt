@@ -1,0 +1,14 @@
+# === Core ===
+numpy==1.26.4
+torch==2.3.1
+faiss-cpu==1.8.0
+transformers==4.43.2
+sentence-transformers==2.7.0
+gradio==4.37.2
+protobuf==4.25.3
+pickle5==0.0.12  # only needed for Python <3.8, safe to keep
+
+# === Optional but recommended ===
+accelerate==0.33.0        # speeds up transformers pipeline
+safetensors==0.4.3         # for faster model loading
+huggingface-hub==0.24.5    # manages model downloads
